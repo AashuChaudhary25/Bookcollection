@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .book-container {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Added margin-bottom */
+  }
+  
+  .book-container img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-details {
+    flex-grow: 1;
+  }
+  
+  .book-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .book-details p {
+    margin-bottom: 5px;
+  }
+  
+  .book-details p:first-child {
+    margin-top: 0;
+  }
+  
+  .book-details a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3366cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-details a:hover {
+    background-color: #204d88;
+  }
+  
+  .book-details .sample-book {
+    margin-bottom: 20px;
+  }
+  
+  .book-details .sample-book h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .book-details .sample-book p {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .upcoming-books {
+    margin-top: 20px;
+  }
+  
+  .upcoming-book {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .upcoming-book img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .release-date {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  body {
+    animation: gradientAnimation 4s linear infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background: linear-gradient(to right, rgb(168, 168, 255), rgb(255, 128, 128));
+    }
+    50% {
+      background: linear-gradient(to right, rgb(255, 179, 179), rgb(102, 102, 255));
+    }
+    100% {
+      background: linear-gradient(to right, rgb(128, 128, 255), rgb(255, 153, 153));
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    body {
+      padding: 10px;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+    .book-container {
+      display: block;
+      margin-bottom: 20px;
+    }
+    .book-details {
+      margin-top: 10px;
+    }
+    .upcoming-book {
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
